@@ -14,6 +14,7 @@ public class TondeuseService {
 	private OrientationEnum orientation;
 	private InstructionsEnum instruction;
 
+	
 	public static void avancer(Tondeuse tondeuse, Pelouse pelouse) {
 		
 		switch (tondeuse.getOrientation()) {
@@ -108,6 +109,10 @@ public class TondeuseService {
 		}
 
 	}
+	
+	
+
+	
 	
 	
 }
